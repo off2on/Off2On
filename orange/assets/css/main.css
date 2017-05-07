@@ -4880,3 +4880,47 @@
 				}
 
 		}
+
+        /******************************************/
+
+        .quote-left
+        {
+            background-color:#595157 ;
+        }
+
+        .quote-right
+        {
+            background-color:#807879 ;
+        }
+
+        .img-quote
+        {
+            width:30%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .img-responsive {
+            display: block;
+            max-width: 100%;
+            height: auto;
+}
+.img-rounded {
+  border-radius: 6px;
+}
+.img-circle {
+  border-radius: 50%;
+}
+	.quotes > article >article:before {
+				background-color: #ff887b;
+				border-radius: 100%;
+				display: inline-block;
+				font-size: 2em;
+				height: 2.4em;
+				line-height: 2.4em;
+				margin-bottom: 0.7em;
+				position: relative;
+				text-align: center;
+				width: 2.4em;
+				z-index: 1;
+			}
