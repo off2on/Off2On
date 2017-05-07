@@ -4472,6 +4472,7 @@
 			#banner input[type="button"]:hover,
 			#banner button:hover,
 			#banner .button:hover {
+                /*background-color:#ff9185;*/
 				background-color: rgba(255, 255, 255, 0.075);
 			}
 
@@ -4924,3 +4925,7 @@
 				width: 2.4em;
 				z-index: 1;
 			}
+
+#banner .button:hover {
+    background-color:#ff9185;
+}
