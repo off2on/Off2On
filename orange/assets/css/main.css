@@ -4940,3 +4940,11 @@
     background-color: #ff887b;
     color: #fff;
 }
+.stats > article h3 span
+{
+        font-size: 1.9em;
+}
+.stats > article
+{
+    border-right:0px;
+}
