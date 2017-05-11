@@ -15,8 +15,10 @@
 			<header id="header" class="alt">
 
 				<!-- Logo -->
-					<div class="logo">
-                        <a href="#banner" class="wide scrolly">Off2On</a><span>A Web Development Company</span>
+					<div class="logo">                        
+                        <a href="#banner" class="wide scrolly">Off2On</a>
+                        <span id="branding-on" class="icon fa-toggle-on branding"></span>
+                        <span id="branding-off" style="display:none" class="icon fa-toggle-off branding"></span>
 					</div>
 
 				<!-- Nav -->
@@ -24,23 +26,8 @@
 						<ul>
 							<li><a href="#banner" class="wide scrolly">Home</a></li>
                             <li><a href="#one" class="wide scrolly">About Us</a></li>
-							<li>
-                                <a href="#Six" class="icon fa-angle-down wide scrolly">Services</a>
-								<ul>
-									<li><a href="#">Option One</a></li>
-									<li><a href="#">Option Two</a></li>
-									<li><a href="#">Option Three</a></li>
-									<li>
-										<a href="#">Submenu</a>
-										<ul>
-											<li><a href="#">Option One</a></li>
-											<li><a href="#">Option Two</a></li>
-											<li><a href="#">Option Three</a></li>
-											<li><a href="#">Option Four</a></li>
-										</ul>
-									</li>
-								</ul>
-							</li>							
+                            <li><a href="#five" class="wide scrolly">Our Mission</a></li>
+							<li><a href="#six" class="wide scrolly">Services</a></li>							
 							<li><a href="#footer" class="wide scrolly">Contact Us</a></li>
 						</ul>
 					</nav>
@@ -50,7 +37,8 @@
 		<!-- Banner -->
 			<section id="banner">
 				<div class="inner">
-					<span class="icon fa-code"></span>
+
+                    <a href="#one" class="scrolly wide"><span class="icon fa-power-off"></span></a>
 					<h1>Still Working Offline?</h1>
                     <p>Stand above your competition, your business is worth it. Hit the switch and take the step forward to the online world.</p>
 					<ul class="actions">
@@ -88,22 +76,22 @@
                         <article>  
                             <h3><span>HTML5</span></h3>                          
                             <span class="icon fa-html5" style="font-size:118px"></span>                            
-                                <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>                        
+                                                       
                         </article>
 						<article>
                             <h3><span>CSS3</span></h3>
                             <span class="icon fa-css3" style="font-size:118px"></span>
-                            <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>  
+                             
 						</article>
 						<article>
                             <h3><span>Javascript</span></h3>
                             <span class="icon-javascript-alt" style="font-size:118px"></span>
-                            <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>  
+                           
 						</article>
 						<article>
                             <h3><span>AngularJS</span></h3>
                             <span class="icon-angular-alt" style="font-size:118px"></span>
-                            <p>Lorem ipsum dolor nulla feugiat adipiscing.</p>  
+                            
 						</article>
 					</div>
 				</div>
@@ -118,21 +106,21 @@
                     <section>
                         <h2 class="align-center">Our Services</h2>
                         <div class="features">
-                            <article class="icon fa-code">
+                            <article class="icon-mobile-device" >
                                 <h3>Responsive Web Development</h3>
-                                <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.</p>
+                                <p>We design and develop fully responsive websites that are compatible with wide range of devices.</p>
                             </article>
                             <article class="icon fa-file-o">
                                 <h3>Web Graphic Design</h3>
-                                <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.</p>
+                                <p>We focus on modern UI design with eye-catchy icons and animations.</p>
                             </article>
-                            <article class="icon fa-clone">
-                                <h3>Nulla consequat</h3>
-                                <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.</p>
+                            <article class="icon fa-search">
+                                <h3>Search Engine Optimization</h3>
+                                <p>We implement advanced SEO techniques to have the best SEO index for your website.</p>
                             </article>
-                            <article class="icon fa-envelope-o">
-                                <h3>Euismod morbi</h3>
-                                <p>Lorem ipsum dolor sit amet nulla etiam feugiat sed adipiscing.</p>
+                            <article class="icon fa-gears">
+                                <h3>Website Maintainence</h3>
+                                <p>Full support and maintenance services after go-live.</p>
                             </article>
                         </div>
                     </section>
@@ -142,31 +130,26 @@
 
         <!-- Four -->
         <section id="four" class="quotes">
-            <article class="quote-left icon fa-quote-left">
+            <article class="quote-left icon fa-quote-left">                
 
+                    <h2>"Sometimes when you innovate, you make mistakes. It is best to admit them quickly, and get on with improving your other innovations."</h2>
                 <div class="author">
-                    <span><img src="images/ashish.jpg" class="img-responsive img-circle img-quote" alt="" data-position="center" /></span>
-                    <span class="name">Ashish Sharma</span>
-                    <span class="title">Software Developer</span>
+                    <!--<span><img src="images/ashish.jpg" class="img-responsive img-circle img-quote" alt="" data-position="center" /></span>-->
+                    <span class="name">Steve Jobs</span>
+                    <span class="title">Founder,  Apple Inc.</span>
                 </div>
-
-                    <h2>"Sed ultrices consequat dolor nulla fringilla dignissim"</h2>
-
             </article>
-            <article class="icon fa-quote-left quote-right">              
-                
-                <div class="author">
-                    
-                    <span><img src="images/paras.jpg" class="img-responsive img-circle img-quote" alt="" data-position="center" /></span>
-                    <span class="name">Paras Paul</span>
-                    <span class="title">Software Developer</span>
+            <article class="icon fa-quote-left quote-right">
+                <h2>"Obviously everyone wants to be successful, but I want to be looked back on as being very innovative, very trusted and ethical and ultimately making a big difference in the world."</h2>
+                <div class="author">                    
+                    <span class="name">Sergey Brin</span>
+                    <span class="title">Founder, Google</span>
                 </div>
-                <h2>"Nam velit et lorem porta quis at pulvinar tellus nibh"</h2>
             </article>
         </section>
 
 		<!-- Three -->
-			<section id="three" class="wrapper">
+			<section id="three" style="display:none" class="wrapper">
 				<div class="inner">
 					<ul class="tabs">
 						<li>
@@ -214,44 +197,27 @@
 		
 
 		<!-- Five -->
-			<section id="five" class="wrapper">
-				<div class="inner">
-					<div class="split">
-						<section>
-							<h2>Our Mission</h2>
-							<span class="image fit"><img src="images/whateverittakes.jpg" alt="" /></span>
-							<p>Maecenas id feugiat nunc. Integer gravida augue libero, quis pellentesque amet pharetra a. Ut sagittis ipsum nec velit porttitor, sed convallis ligula pellentesque. Mauris et dignissim sem lacinia lorem ipsum dolor.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn More</a></li>
-							</ul>
-						</section>
-						<section>
-							<div class="ratings">
-								<article>
-									<h3>Customer Satisfaction</h3>
-									<div class="progress" data-progress="100">100%</div>
-								</article>
-								<article>
-									<h3>Adipiscing feugiat</h3>
-									<div class="progress" data-progress="90">90%</div>
-								</article>
-								<article>
-									<h3>Dolor ligula</h3>
-									<div class="progress" data-progress="75">75%</div>
-								</article>
-								<article>
-									<h3>Libero magna</h3>
-									<div class="progress" data-progress="45">45%</div>
-								</article>
-								<article>
-									<h3>Nec lacinia</h3>
-									<div class="progress" data-progress="55">55%</div>
-								</article>
-							</div>
-						</section>
-					</div>
-				</div>
-			</section>
+
+
+        <section id="five" class="wrapper">
+            <div class="inner">
+                <div class="split">
+                   
+                    <section>
+                        <div class="content">
+                            <h2>Our Mission</h2>
+                            <p>To provide the most attractive, functional and fast websites to our customers, helping them grow their business and making them stand above their competition. We believe in building long term relations and so would keep our work wonderful with quality and time.</p>
+                            <ul class="actions">
+                                <li><a href="#two" class="button wide scrolly">Learn More</a></li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section>
+                        <span class="image fit portrait"><img src="images/whateverittakes.jpg" alt="" /></span>
+                    </section>
+                </div>
+            </div>
+        </section>
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -260,8 +226,7 @@
 						<div class="contact">
 							<h2>Contact</h2>
 							<ul class="contact-icons">
-								<li class="icon fa-home"><a href="#">Gurgaon, India 122001</a></li>
-								<li class="icon fa-phone"><a href="#">(000) 000-0000</a></li>
+								<li class="icon fa-home"><a href="#">Gurgaon, India 122001</a></li>								
 								<li class="icon fa-envelope-o"><a href="#">info@off2on.com</a></li>
 							</ul>
 							<ul class="icons-bordered">
@@ -271,15 +236,7 @@
 								<li><a class="icon fa-twitter" href="#">
 									<span class="label">Twitter</span>
 								</a></li>
-								<li><a class="icon fa-instagram" href="#">
-									<span class="label">Instagram</span>
-								</a></li>
-								<li><a class="icon fa-github" href="#">
-									<span class="label">GitHub</span>
-								</a></li>
-								<li><a class="icon fa-linkedin" href="#">
-									<span class="label">LinkedIn</span>
-								</a></li>
+								
 							</ul>
 						</div>
 						<form action="#" method="post">
@@ -314,6 +271,13 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+        <script>
+           
+                setInterval(function () {
+                    $('#branding-on, #branding-off').toggle();
+                }, 1500);
+           
+        </script>
 
 	</body>
 </html>
