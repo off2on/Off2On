@@ -17,8 +17,9 @@
 				<!-- Logo -->
 					<div class="logo">                        
                         <a href="#banner" class="wide scrolly">Off2On</a>
-                        <span id="branding-on" class="icon fa-toggle-on branding"></span>
-                        <span id="branding-off" style="display:none" class="icon fa-toggle-off branding"></span>
+                        <span>A Web Development Company</span>
+                        <!--<span id="branding-on" class="icon fa-toggle-on branding"></span>
+                        <span id="branding-off" style="display:none" class="icon fa-toggle-off branding"></span>-->
 					</div>
 
 				<!-- Nav -->
@@ -273,11 +274,17 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
         <script>
-           
-                setInterval(function () {
-                    $('#branding-on, #branding-off').toggle();
-                }, 1500);
-           
+            
+            var toggleLogo = function () {
+                if (window.innerWidth > 736) {
+                    setInterval(function () {
+                        $('#branding-on, #branding-off').toggle();
+                    }, 1500);
+                }
+            };
+
+            //toggleLogo();
+            //window.addEventListener("resize", toggleLogo);
         </script>
 
 	</body>
